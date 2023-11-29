@@ -1,0 +1,12 @@
+import math
+class circle:
+    def area(self,r):
+        self.r=r
+        print("Area of the circle is:- ",math.pi*r*r)
+    def parameter(self,r):
+        self.r=r
+        print("Parameter of the circle is:- ",2*math.pi*self.r)
+a=circle()
+radius=int(input("Enter radius:- "))
+a.area(radius)
+a.parameter(radius)
